@@ -1,0 +1,15 @@
+### Get main page
+GET http://localhost:1337/api/logs
+
+### Post request
+POST http://localhost:1337/api/logs
+content-type: application/json
+
+{
+    "title": "Empire State Building",
+    "comments": "Visted the top of the Empire State Building.",
+    "latitude": 40.748817,
+    "longitude": -73.985428,
+    "rating": 7,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Empire_State_Building_from_the_Top_of_the_Rock.jpg"
+}
